@@ -54,6 +54,14 @@ body{
     flex-direction: column;
 }
 
+.form a{
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+
 .label {
     font-size: var(--sm);
     font-weight: bold;
@@ -68,6 +76,11 @@ body{
     padding: 6px;
     margin-bottom: 12px;
 }
+
+.input-email{
+    margin-bottom: 22px;
+}
+
 .email-image{
     width: 132px;
     height: 132px;
@@ -107,6 +120,19 @@ body{
     font-weight: bold;
     height: 50px;
 }
+
+.secondary-button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+}
+
 .login-button{
     margin-top: 14px;
     margin-bottom: 30px;
